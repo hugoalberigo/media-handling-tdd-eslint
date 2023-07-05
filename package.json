@@ -1,0 +1,49 @@
+{
+  "name": "challenge-ch10",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "eslint": "eslint src/",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "bootstrap": "^5.2.3",
+    "cloudinary": "^1.35.0",
+    "eslint-config-next": "13.1.6",
+    "firebase": "^9.17.1",
+    "fs": "^0.0.1-security",
+    "mdb-react-ui-kit": "^5.1.0",
+    "next": "^13.1.6",
+    "next-cloudinary": "^4.0.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-player": "^2.11.0",
+    "react-redux": "^8.0.5",
+    "react-to-print": "^2.14.12",
+    "reactstrap": "^9.1.5",
+    "redux": "^4.2.1",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.4.3"
+  }
+}
